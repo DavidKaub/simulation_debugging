@@ -1,0 +1,13 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.6.0">
+  <name>RecentData</name>
+  <dataSet>RecentData</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>NetworkThroughput</string>
+    <string>CommunicationEffort</string>
+  </sourceIds>
+  <fileName>output_sink/recentData.csv</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

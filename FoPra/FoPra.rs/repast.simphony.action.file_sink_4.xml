@@ -1,0 +1,16 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.6.0">
+  <name>FinalData</name>
+  <dataSet>FinalData</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>FinalNetworkThroughput</string>
+    <string>FinalCommunicationEffort</string>
+    <string>AverageFrequency</string>
+    <string>TotalDemandChanges</string>
+    <string>RandomSeed</string>
+    <string>FrequencyIntervals</string>
+  </sourceIds>
+  <fileName>output_sink/FinalData.csv</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>
